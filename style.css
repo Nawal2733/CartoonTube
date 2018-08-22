@@ -27,7 +27,7 @@
     width: 30%;
     height: 80%;
     border-radius: 50%;
-    background-image: url(images/user.png);
+    background-image: url(user.png);
     background-size: contain;
     position: absolute;
     left: 13%;
