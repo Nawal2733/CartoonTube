@@ -10,7 +10,7 @@ window.onload=init;
         var searchTerm = document.getElementById('searchYoutube').value+' cartoon';
         console.log(searchTerm);
         searchTerm = encodeURIComponent(searchTerm);
-        var url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyDgmIHClyyhNlck62Jmu8xWfk0GY_Muk18&q='+ searchTerm +'&maxResults=20';
+        var url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyDgmIHClyyhNlck62Jmu8xWfk0GY_Muk18&q='+ searchTerm +'&maxResults=50';
         getJSON(url, function(data){
             showResult(data.items);
         });
